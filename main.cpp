@@ -1,7 +1,6 @@
 #include "set.h"
-int main() {
-	set A;
-	if(A.test_set()){
+int main(){
+	if(test()){
 		std::cout << "OK";
 		return 0;
 	}
